@@ -13,7 +13,11 @@ Transformer models are trained to detect sudden encryption patterns in network t
 
 This dataset includes traffic containing various network attacks, including backdoors, which are relevant for ransomware detection. Transformer models can be trained using malicious traffic patterns from this dataset to detect ransomware encryption activity.
 
-**URL:** [UNSW-NB15 Dataset](https://github.com/)
+**URL:** [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+Version: v1.0
+Size: 2.5 GB
+Access: Free
+Format: CSV/PCAP
 
 ### Research Topic 2: Ransomware Detection Using Transformer-Based Multi-Modal Data Fusion
 
