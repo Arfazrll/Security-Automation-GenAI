@@ -13,7 +13,11 @@ Transformer models are trained to detect sudden encryption patterns in network t
 
 This dataset includes traffic containing various network attacks, including backdoors, which are relevant for ransomware detection. Transformer models can be trained using malicious traffic patterns from this dataset to detect ransomware encryption activity.
 
-**URL:** [UNSW-NB15 Dataset](https://github.com/)
+**URL:** [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+Version: v1.0
+Size: 2.5 GB
+Access: Free
+Format: CSV/PCAP
 
 ### Research Topic 2: Ransomware Detection Using Transformer-Based Multi-Modal Data Fusion
 
@@ -23,9 +27,14 @@ This approach uses Transformers to fuse various data sources including network t
 **Novelty:** High. The strength of this topic lies in the multi-modal data fusion approach. Combining various data sources such as network traffic, system file logs, and process behavior is a new step that has been relatively unexplored in ransomware detection. Most current research focuses on only one type of data, such as network traffic or system logs. By integrating various data types, this approach enhances the capability to detect more complex and hidden ransomware patterns. The use of Transformers in fusing data from various sources provides added value because Transformers excel at handling complex sequential data from different modalities.
 
 **Datasets:**
-- **UNSW-NB15 Dataset:** Contains various types of attacks, including those relevant to ransomware, and can be used to analyze network traffic patterns and network logs. [URL: UNSW-NB15 Dataset](https://github.com/)
-- **CTU-13 Dataset:** Contains botnet network traffic including normal, malicious, and background data, useful for detecting anomaly patterns in network activity often present in ransomware attacks. [URL: CTU-13 Dataset](https://github.com/)
-- **ADFA IDS Dataset:** Provides attack logs on Linux and Windows operating systems, very useful for system behavior analysis related to ransomware. [URL: ADFA IDS Dataset](https://github.com/)
+- **UNSW-NB15 Dataset:** Contains various types of attacks, including those relevant to ransomware, and can be used to analyze network traffic patterns and network logs. [URL: UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+- **CTU-13 Dataset:** Contains botnet network traffic including normal, malicious, and background data, useful for detecting anomaly patterns in network activity often present in ransomware attacks. [URL: CTU-13 Dataset](https://www.stratosphereips.org/datasets-ctu13)
+Version: v1.0
+Size: 3.5 GB
+Access: Free
+Format: PCAP
+
+- **ADFA IDS Dataset:** Provides attack logs on Linux and Windows operating systems, very useful for system behavior analysis related to ransomware. [URL: ADFA IDS Dataset](https://research.unsw.edu.au/projects/adfa-ids-datasets?utm_source=chatgpt.com)
 
 ### Research Topic 3: Federated Learning with Transformer for Distributed Ransomware Detection
 
@@ -35,9 +44,9 @@ This topic combines Federated Learning with Transformers to enable ransomware de
 **Novelty:** High. This topic is highly innovative because it combines two advanced approaches: Federated Learning and Transformers. Federated Learning enables distributed ransomware detection across various devices such as IoT or edge devices without sacrificing data privacy. This is very important in data-sensitive environments such as banking or healthcare. The use of Transformers within the Federated Learning framework is a new and rarely applied approach, which provides better capability in understanding data sequences and capturing hidden attack patterns locally on each device.
 
 **Datasets:**
-- **TON-IoT Dataset:** Contains traffic logs and IoT network interactions, suitable for testing ransomware detection in IoT environments. This dataset contains normal and malicious traffic relevant for distributed ransomware research. [URL: TON-IoT Dataset](https://github.com/)
-- **IoT-23 Dataset:** Contains network traffic from IoT devices, including examples of malicious attacks such as ransomware suitable for analysis on edge devices. [URL: IoT-23 Dataset](https://github.com/)
-- **LANL Unified Host and Network Dataset:** Has authentication logs and network activity in large infrastructure, which can be used for federated learning model simulation in detecting ransomware in corporate networks. [URL: LANL Unified Dataset](https://github.com/)
+- **TON-IoT Dataset:** Contains traffic logs and IoT network interactions, suitable for testing ransomware detection in IoT environments. This dataset contains normal and malicious traffic relevant for distributed ransomware research. [URL: TON-IoT Dataset](https://research.unsw.edu.au/projects/toniot-datasets?utm_source=chatgpt.com)
+- **IoT-23 Dataset:** Contains network traffic from IoT devices, including examples of malicious attacks such as ransomware suitable for analysis on edge devices. [URL: IoT-23 Dataset](https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/?utm_source=chatgpt.com)
+- **LANL Unified Host and Network Dataset:** Has authentication logs and network activity in large infrastructure, which can be used for federated learning model simulation in detecting ransomware in corporate networks. [URL: LANL Unified Dataset](https://csr.lanl.gov/data/)
 
 ## 2. Phishing URL Detection Using BERT-Based Transformer Models
 
@@ -52,7 +61,7 @@ BERT (Bidirectional Encoder Representations from Transformers) models are used t
 
 This dataset contains millions of malicious URLs, including those used for phishing. BERT, as a Transformer model, can be used to understand URL characteristic patterns and predict the likelihood of phishing attacks.
 
-**URL:** [Malicious URL Dataset](https://github.com/)
+**URL:** [Malicious URL Dataset](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset?utm_source=chatgpt.com)
 
 ## 3. DDoS Attack Detection Using Transformer
 
@@ -67,7 +76,7 @@ In this research, Transformer models are used to analyze time-based network traf
 
 This dataset has botnet network traffic data that can be used to train Transformer models in detecting traffic spikes indicating DDoS attacks.
 
-**URL:** [CTU-13 Dataset](https://github.com/)
+**URL:** [CTU-13 Dataset](https://www.kaggle.com/datasets/dhoogla/ctu13?utm_source=chatgpt.com)
 
 ### Research Topic 2: Real-Time DDoS Detection Using Transformer-Based Adaptive Attention Mechanism
 
@@ -104,7 +113,7 @@ Transformers are used to detect SQL Injection based on HTTP request patterns. Th
 
 This dataset consists of thousands of HTTP requests that can be used to develop SQL Injection detection models. Transformer models can be trained to recognize anomaly patterns in HTTP requests indicating SQL injection.
 
-**URL:** [HTTP Dataset CSIC 2010](https://github.com/)
+**URL:** [HTTP Dataset CSIC 2010](https://www.kaggle.com/general/335189?utm_source=chatgpt.com)
 
 ## 6. Zero-Day Attack Detection Using Transformer-Based Anomaly Detection
 
@@ -119,7 +128,7 @@ Transformer models are used to detect traffic patterns not previously recognized
 
 This dataset is also useful for detecting Zero-Day attacks, as it includes various types of network attacks that can be used to train Transformer models to recognize new anomaly patterns not previously known.
 
-**URL:** [UNSW-NB15 Dataset](https://github.com/)
+**URL:** [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset?utm_source=chatgpt.com)
 
 ## 7. Credential Stuffing Detection Using Transformers in User Authentication Logs
 
@@ -134,7 +143,7 @@ Transformer models process user authentication logs, learning sequences of repea
 
 This dataset contains user authentication logs that can be used to detect Credential Stuffing attacks. Transformer models can be trained to analyze suspicious login attempt sequences.
 
-**URL:** [LANL Unified Dataset](https://github.com/)
+**URL:** [LANL Unified Dataset]([https://github.com/](https://csr.lanl.gov/data/))
 
 ## 8. Advanced Persistent Threat Detection Using Transformer Networks for Long-Term Behavioral Analysis
 
@@ -149,7 +158,7 @@ Transformer models are applied to learn long-term traffic patterns and hidden co
 
 This dataset is very suitable for Advanced Persistent Threat (APT) research, as it includes logs from various operating systems often targeted by APT attacks. Transformers can analyze malicious traffic patterns over long periods.
 
-**URL:** [ADFA IDS Datasets](https://github.com/)
+**URL:** [ADFA IDS Datasets](https://research.unsw.edu.au/projects/adfa-ids-datasets)
 
 ## 9. Insider Threat Detection Using Transformers on User Activity Logs
 
@@ -164,7 +173,7 @@ Transformers are used to comprehensively analyze user activity. The model is tra
 
 This dataset contains suspicious user activity data and can be used to detect Insider Threats. Transformer models can recognize anomalous access patterns based on user logs.
 
-**URL:** [CERT Insider Threat Dataset](https://github.com/)
+**URL:** [CERT Insider Threat Dataset](https://www.kaggle.com/datasets/nitishabharathi/cert-insider-threat)
 
 ## 10. Malware Detection Using Transformers on Network Traffic Sequences
 
@@ -179,4 +188,4 @@ Transformer models are used to detect malware activity through network packet se
 
 This dataset contains malware files from various families that can be used to train Transformer models in detecting malware based on suspicious network traffic sequences.
 
-**URL:** [Malware Detection Dataset](https://www.kaggle.com/)
+**URL:** [Malware Detection Dataset]([https://www.kaggle.com/](https://www.kaggle.com/datasets/mazenal/malware-detection))
